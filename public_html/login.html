@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Usuario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="cad.js"></script>
+    </head>
+    <body>
+        <form name="form" method="get" action=""><!--Formulario Action" para onde os dados vao ser enviados-->
+			  
+                 <fieldset id= "usuario"><!--Conjunto de campos, cria borda do grupo-->			  
+                    <legend>
+					Identificação do Usuário
+                    </legend>
+		       <!--maxlength = max. de caracteres "placeholder" Nome na caixa-->
+		       <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/>
+                       </p><!--Input - utilizado em varios objetos, caixa de texto"size"quantidade de caracteres-->
+                       
+                       <p><label for="cSenha">Senha:</label><input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 Digitos"/></p><!--Password - chave-->
+                 </fieldset>
+            <input type="button" value="Entrar" onclick="entrarUsuario();"/>
+            <input type="button" value="Cadastrar" onclick="cadastrarUsuario();" />
+	    <input type="button" value="Consultar" onclick="consultarUsuario();" />
+        </form>    
+    </body>
+</html>

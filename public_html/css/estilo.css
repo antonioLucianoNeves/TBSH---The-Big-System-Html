@@ -1,0 +1,83 @@
+
+
+            body {
+                margin:0;
+                padding:0;
+                background-color: activecaption;
+                text-align:center; 
+            }
+            #pag {
+                width:1024px;
+                margin-top:10px;
+                margin:0 auto;
+            }
+            #logo {
+                width: 200px;
+                height: 180px;
+                float:left;
+                background: url("../images/menu/HTML5_logo_black.svg.png");
+            }
+            #banner {
+                width: 824px;
+                height: 180px;
+                float:left;
+                background-color: activecaption;
+            }
+            #titulo {
+                width: 570px;
+                height: 180px;
+                float:left;
+            }
+            #login {
+                width: 250px;
+                heigth: 180px;
+                float:left;
+                background-color: darkgrey;
+            }
+            #conteudo {
+                width: 824px;
+                heigth: 110px;
+                float:left;
+                background-color: darkseagreen;
+            }
+            #rodape {
+                width: 1024px;
+                height: 70px;
+                float:left;
+                background-color: darkgoldenrod;
+            }
+            #menu ul {
+                list-style-type: none;
+                magin: 5px;
+                padding: 5px;
+                font-size: 12px; font-family: verdana, arial, helvetica, sans-serif;
+            }          
+            #menu ul li {height:20px;}
+            
+            #menu a {
+                display: block;
+                padding:1px 0 1px 25px;
+                border: 1px solid #000000;
+                width: 180px;
+                background-color: #339766;
+                color: #0000ff;
+                text-decoration: none;
+                background-image: url("../images/menu/");/**/
+                width: 153px;
+                
+                #menu a:hover {
+                    border: 1px solid #000000;
+                    background-color: #FFFF99;
+                    background-image: url("../images/menu/");/**/
+                    color: #000000;
+                } 
+                
+                #menu a:active {
+                    border: 1px solid #000000;
+                    background-color: #FFFF99;
+                    background-image: url("../images/menu/");/**/
+                    color: #000000;
+                } 
+                
+            }
+            
